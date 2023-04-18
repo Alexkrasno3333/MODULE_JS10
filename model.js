@@ -1,7 +1,7 @@
 let game = document.querySelector('.game'),
-	res = document.querySelector('.res'),
-	btnGame = document.querySelector('.new-game'),
-	fields = document.querySelectorAll('.field'),
+	 res = document.querySelector('.res'),
+	 btnGame = document.querySelector('.new-game'),
+	 fields = document.querySelectorAll('.field'),
 	step = false,
 	count = 0,
 	circle = `<svg class="circle">
