@@ -5,11 +5,11 @@ let game = document.querySelector('.game'),
 	step = false,
 	count = 0,
 	circle = `<svg class="circle">
-			<circle r="45" cx="58" cy="58" stroke="#428fed" stroke-width="10" fill="none" stroke-linecap="round" />
+				<circle r="45" cx="58" cy="58" stroke="#428fed" stroke-width="10" fill="none" stroke-linecap="round" />
 			</svg>`,
 	cross = `<svg class="cross">
-			<line class="firstcross" x1="15" y1="15" x2="100" y2="100" stroke="#ee72ca" stroke-width="10" stroke-linecap="round" />
-			<line class="secondcross" x1="100" y1="15" x2="15" y2="100" stroke="#ee72ca" stroke-width="10" stroke-linecap="round" />
+				<line class="firstcross" x1="15" y1="15" x2="100" y2="100" stroke="#ee72ca" stroke-width="10" stroke-linecap="round" />
+				<line class="secondcross" x1="100" y1="15" x2="15" y2="100" stroke="#ee72ca" stroke-width="10" stroke-linecap="round" />
 			</svg>`;
 
 function stepCross(target) {
